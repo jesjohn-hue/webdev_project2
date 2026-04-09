@@ -76,6 +76,13 @@ section {
   border-radius: 0.75rem;
 }
 
+/* CLEARFIX FIX */
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 p,
 ul,
 figure,
@@ -116,8 +123,7 @@ footer {
   font-size: 0.95rem;
 }
 
-/* FLOAT ADDED */
-
+/* FLOAT LAYOUT */
 .home-page figure,
 .about-page figure {
   float: right;
