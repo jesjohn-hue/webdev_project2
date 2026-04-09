@@ -76,7 +76,6 @@ section {
   border-radius: 0.75rem;
 }
 
-/* CLEARFIX FIX */
 section::after {
   content: "";
   display: block;
@@ -123,10 +122,15 @@ footer {
   font-size: 0.95rem;
 }
 
-/* FLOAT LAYOUT */
 .home-page figure,
 .about-page figure {
   float: right;
   width: 42%;
   margin: 0 0 1rem 1.5rem;
+}
+
+.resume-page figure {
+  width: 48%;
+  margin: 1rem auto;
+  text-align: center;
 }
