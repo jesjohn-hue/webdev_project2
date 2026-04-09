@@ -16,16 +16,19 @@ footer {
 }
 
 header {
+  position: relative;
   padding: 2rem 0 1rem 0;
 }
 
 nav {
+  position: relative;
   margin-bottom: 2rem;
 }
 
 nav ul {
   list-style: none;
   text-align: center;
+  position: relative;
 }
 
 nav li {
@@ -70,6 +73,7 @@ main {
 }
 
 section {
+  position: relative;
   margin-bottom: 1.75rem;
   padding: 1.5rem;
   background-color: #ffffff;
@@ -111,6 +115,7 @@ audio {
 }
 
 footer {
+  clear: both;
   padding: 0 0 2rem 0;
   text-align: center;
   font-size: 0.95rem;
@@ -135,14 +140,23 @@ footer {
   color: #1d4e89;
 }
 
+.home-page figure {
+  float: right;
+  width: 45%;
+  margin: 0 0 1rem 1.5rem;
+}
+
 .home-page figure img {
-  max-width: 42rem;
-  margin: 0 auto;
+  max-width: 100%;
   box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.12);
 }
 
 .home-page section:last-of-type {
   border: 0.12rem solid #bfd7ea;
+}
+
+.home-page audio {
+  position: relative;
 }
 
 /* Resume page */
@@ -185,9 +199,14 @@ footer {
   border-bottom: none;
 }
 
+.resume-page figure {
+  float: right;
+  width: 42%;
+  margin: 0 0 1rem 1.5rem;
+}
+
 .resume-page figure img {
-  max-width: 38rem;
-  margin: 0 auto;
+  max-width: 100%;
   border: 0.15rem solid #d7c2a8;
 }
 
@@ -219,9 +238,14 @@ footer {
   padding-left: 2rem;
 }
 
+.about-page figure {
+  float: left;
+  width: 44%;
+  margin: 0 1.5rem 1rem 0;
+}
+
 .about-page figure img {
-  max-width: 40rem;
-  margin: 0 auto;
+  max-width: 100%;
   border: 0.18rem solid #e0d1bb;
 }
 
