@@ -16,19 +16,16 @@ footer {
 }
 
 header {
-  position: relative;
   padding: 2rem 0 1rem 0;
 }
 
 nav {
-  position: relative;
   margin-bottom: 2rem;
 }
 
 nav ul {
   list-style: none;
   text-align: center;
-  position: relative;
 }
 
 nav li {
@@ -73,7 +70,6 @@ main {
 }
 
 section {
-  position: relative;
   margin-bottom: 1.75rem;
   padding: 1.5rem;
   background-color: #ffffff;
@@ -115,140 +111,16 @@ audio {
 }
 
 footer {
-  clear: both;
   padding: 0 0 2rem 0;
   text-align: center;
   font-size: 0.95rem;
 }
 
-/* Home page */
+/* FLOAT ADDED */
 
-.home-page {
-  background: linear-gradient(to bottom, #eef4fb, #dce8f5);
-}
-
-.home-page section:first-of-type {
-  background-color: #e6f0fa;
-}
-
-.home-page h1 {
-  color: #102a43;
-  letter-spacing: 0.03rem;
-}
-
-.home-page h2 {
-  color: #1d4e89;
-}
-
-.home-page figure {
-  float: right;
-  width: 45%;
-  margin: 0 0 1rem 1.5rem;
-}
-
-.home-page figure img {
-  max-width: 100%;
-  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.12);
-}
-
-.home-page section:last-of-type {
-  border: 0.12rem solid #bfd7ea;
-}
-
-.home-page audio {
-  position: relative;
-}
-
-/* Resume page */
-
-.resume-page {
-  background-color: #f3f0ea;
-}
-
-.resume-page header,
-.resume-page main,
-.resume-page footer {
-  width: 60rem;
-  max-width: 95%;
-}
-
-.resume-page h1 {
-  color: #3d2c1e;
-  text-transform: uppercase;
-  letter-spacing: 0.08rem;
-}
-
-.resume-page section {
-  border-left: 0.35rem solid #8b5e34;
-  border-radius: 0 0.75rem 0.75rem 0;
-  background-color: #fffdf9;
-}
-
-.resume-page h2 {
-  color: #6b4226;
-  text-transform: uppercase;
-  letter-spacing: 0.04rem;
-}
-
-.resume-page article {
-  padding-bottom: 0.6rem;
-  border-bottom: 0.08rem solid #d9c7b5;
-}
-
-.resume-page article:last-of-type {
-  border-bottom: none;
-}
-
-.resume-page figure {
+.home-page figure,
+.about-page figure {
   float: right;
   width: 42%;
   margin: 0 0 1rem 1.5rem;
-}
-
-.resume-page figure img {
-  max-width: 100%;
-  border: 0.15rem solid #d7c2a8;
-}
-
-/* About page */
-
-.about-page {
-  background: linear-gradient(to bottom, #fffaf2, #f7efe0);
-}
-
-.about-page h1 {
-  color: #7a3e00;
-}
-
-.about-page main {
-  width: 85%;
-  max-width: 72rem;
-}
-
-.about-page section {
-  background-color: #fffdf8;
-  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.08);
-}
-
-.about-page h2 {
-  color: #9a4f10;
-}
-
-.about-page ul {
-  padding-left: 2rem;
-}
-
-.about-page figure {
-  float: left;
-  width: 44%;
-  margin: 0 1.5rem 1rem 0;
-}
-
-.about-page figure img {
-  max-width: 100%;
-  border: 0.18rem solid #e0d1bb;
-}
-
-.about-page section:nth-of-type(3) {
-  background-color: #fff7eb;
 }
