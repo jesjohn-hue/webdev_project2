@@ -122,15 +122,67 @@ footer {
   font-size: 0.95rem;
 }
 
-.home-page figure,
-.about-page figure {
+/* Home page */
+
+.home-page figure {
   float: right;
-  width: 42%;
-  margin: 0 0 1rem 1.5rem;
+  width: 40%;
+  margin: 0.25rem 0 1rem 1.5rem;
 }
+
+.home-page figure img {
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.home-page section:first-of-type {
+  background-color: #e6f0fa;
+}
+
+.home-page h1 {
+  color: #102a43;
+  letter-spacing: 0.03rem;
+}
+
+.home-page h2 {
+  color: #1d4e89;
+}
+
+.home-page section:last-of-type {
+  border: 0.12rem solid #bfd7ea;
+}
+
+/* Resume page */
 
 .resume-page figure {
   width: 48%;
   margin: 1rem auto;
   text-align: center;
+}
+
+/* About page */
+
+.about-page figure {
+  float: right;
+  width: 40%;
+  margin: 0.25rem 0 1rem 1.5rem;
+}
+
+.about-page h1 {
+  color: #7a3e00;
+}
+
+.about-page h2 {
+  color: #9a4f10;
+}
+
+.about-page ul {
+  padding-left: 2rem;
+}
+
+.about-page figure img {
+  border: 0.18rem solid #e0d1bb;
+}
+
+.about-page section:nth-of-type(3) {
+  background-color: #fff7eb;
 }
